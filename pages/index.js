@@ -11,6 +11,7 @@ import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
+import pcktsc from "../public/pcktsc.jpg"
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
@@ -104,6 +105,39 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1 ">
+            <a href="https://macabre-coffin-65160.herokuapp.com/">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={pcktsc}
+                />
+                </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://github.com/tedtalktimmy/pwd.generator-jS">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web2}
+              />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://agile-wave-79744.herokuapp.com">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web3}
+              />
+              </a>
+            </div>
             <div className="basis-1/3 flex-1 ">
             <a href="https://github.com/tedtalktimmy/horiseon-refactor-project">
               <Image
