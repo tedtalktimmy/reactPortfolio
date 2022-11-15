@@ -85,7 +85,7 @@ export default function Home() {
                 I have currently created projects using the following technologies:
               </p>
               <p className="text-gray-800 py-1">HTML</p>
-              <p className="text-gray-800 py-1">CSS</p>
+              <p className="text-gray-800 py-1">CSS (Custom and Tailwind)</p>
               <p className="text-gray-800 py-1">javaScript</p>
               <p className="text-gray-800 py-1">MongoDB</p>
               <p className="text-gray-800 py-1">MySQL</p>
@@ -93,9 +93,8 @@ export default function Home() {
               <p className="text-gray-800 py-1">MERN Stack</p>
               <p className="text-gray-800 py-1">Node</p>
               <p className="text-gray-800 py-1">Handlebars</p>
-              <p className="text-gray-800 py-1">APIs</p>
+              <p className="text-gray-800 py-1">API Implementation</p>
               <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">Tailwind</p>
             </div>
           </div>
         </section>
