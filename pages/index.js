@@ -59,11 +59,15 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Natanael Fortunato
             </h2>
-            <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer.
-            </h3>
+            <Typed className="text-2xl py-2 dark:text-white md:text-3xl"
+            strings={[
+              'Software Engineer.'
+            ]}
+            typeSpeed={180}
+            backSpeed={1200}
+            />
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              I am a developer who enjoys, primarily, backend work.
+              I am a software engineer who enjoys, primarily, backend work.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://www.twitter.com/wahlwoodsman"><AiFillTwitterCircle /></a>
@@ -79,9 +83,14 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
-              <Typed className="text-lg font-medium pt-8 pb-2  ">
-                Technologies
-              </Typed>
+              <Typed className="text-lg font-medium pt-8 pb-2"
+              strings={[
+                'Technologies'
+              ]}
+              typeSpeed={180}
+              backSpeed={200}
+              loop
+              />
               <p className="py-2">
                 I have currently created projects using the following technologies:
               </p>
