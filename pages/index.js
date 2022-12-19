@@ -4,6 +4,7 @@ import {
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
+import Typed from 'react-typed';
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
@@ -78,9 +79,9 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+              <Typed className="text-lg font-medium pt-8 pb-2  ">
                 Technologies
-              </h3>
+              </Typed>
               <p className="py-2">
                 I have currently created projects using the following technologies:
               </p>
